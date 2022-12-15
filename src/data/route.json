@@ -1,0 +1,220 @@
+[
+    {
+      "id": 1,
+      "elementt":"<Comingsoon />",
+      "name": "Hey INK",
+      "subtitle": "Quickly access all of our INK tools from a single interface!",
+      "sampleOutputText": "Hey INK",
+      "route": "hey-ink",
+      "apiRoute": "command-ink",
+      "img": "../assets/ai-blog.png",
+      "textInputs": [
+        {
+          "name": "Ask INK",
+          "key": "ask-ink",
+          "placeholder": "Write sales copy about threadmills",
+          "showTextArea": false,
+          "maxLimit": 100,
+          "minLimit": 3
+        },
+        {
+          "name": "Provide some context",
+          "key": "provide_some_context",
+          "placeholder": "Enter additional information here...",
+          "showTextArea": true,
+          "maxLimit": 400,
+          "minLimit": 0
+        },
+        {
+          "name": "Tone of Voice",
+          "key": "tone_of_voice",
+          "placeholder": "",
+          "showTextArea": false,
+          "maxLimit": 80,
+          "minLimit": 0
+        },
+        {
+          "name": "Output Language",
+          "key": "output_language",
+          "placeholder": "",
+          "showTextArea": false,
+          "maxLimit": 80,
+          "minLimit": 0
+        }
+      ],
+      "status": "Coming Soon"
+    },
+    {
+      "id": 2,
+      "elementt":"<ImageGenerator />",
+      "name": "AI Image Generator",
+      "subtitle": "Create any image or art in seconds with the INK Image Generation AI.",
+      "sampleOutputText": "See your INK Images appear here after you answer the questions on the left.",
+      "route": "image-generator",
+      "apiRoute": "imagery-generate",
+      "img": "../assets/ai-image.png",
+      "textInputs": [
+        {
+          "name": "Prompt",
+          "key": "prompt",
+          "label":"Provide a short image desription",
+          "type": "textarea",
+          "placeholder": "winter city, village, winter, night, snowfall, darkness, bright lights, soft lights, highly detailed, intricate, elaborate, Studio Ghibli",
+          "maxLimit": 400,
+          "minLimit": 0
+        },
+        {
+          "name": "Size",
+          "key": "size",
+          "type": "option",
+          "placeholder": ["small","medium"],
+          "maxLimit": 400,
+          "minLimit": 0
+        },
+        {
+          "name": "Number",
+          "key": "number",
+          "type": "text",
+          "placeholder": "1",
+          "maxLimit": 400,
+          "minLimit": 0
+        }
+      ],
+      "status": "NEW!"
+    },
+    {
+      "id": 3,
+      "elementt":"<Comingsoon/>",
+      "name": "Facebook Primary Text Generator",
+      "subtitle": "INK automatically generated Facebook copy for you. Epic.",
+      "sampleOutputText": "Facebook Primary Text Generator",
+      "route": "facebook-primary-text-generator",
+      "apiRoute": "facebook-primary-text-generator",
+      "img": "../assets/ai-subheading.png",
+      "textInputs": [
+        {
+          "name": "Ask INK",
+          "key": "ask-ink",
+          "placeholder": "Write sales copy about threadmills",
+          "showTextArea": false,
+          "maxLimit": 100,
+          "minLimit": 3
+        },
+        {
+          "name": "Provide some context",
+          "key": "provide_some_context",
+          "placeholder": "Enter additional information here...",
+          "showTextArea": true,
+          "maxLimit": 400,
+          "minLimit": 0
+        },
+        {
+          "name": "Tone of Voice",
+          "key": "tone_of_voice",
+          "placeholder": "",
+          "showTextArea": false,
+          "maxLimit": 80,
+          "minLimit": 0
+        },
+        {
+          "name": "Output Language",
+          "key": "output_language",
+          "placeholder": "",
+          "showTextArea": false,
+          "maxLimit": 80,
+          "minLimit": 0
+        }
+      ],
+      "status": "Coming Soon"
+    },
+    {
+      "id": 4,
+      "elementt":"<Comingsoon />",
+      "name": "Bullet Text",
+      "subtitle": "Bullet points in your social post are your secret warriors against skimmers and attention deficit.",
+      "sampleOutputText": "Bullet Text",
+      "route": "bullet-text",
+      "apiRoute": "bullet-text",
+      "img": "../assets/ai-listicles.png",
+      "textInputs": [
+        {
+          "name": "Ask INK",
+          "key": "ask-ink",
+          "placeholder": "Write sales copy about threadmills",
+          "showTextArea": false,
+          "maxLimit": 100,
+          "minLimit": 3
+        },
+        {
+          "name": "Provide some context",
+          "key": "provide_some_context",
+          "placeholder": "Enter additional information here...",
+          "showTextArea": true,
+          "maxLimit": 400,
+          "minLimit": 0
+        },
+        {
+          "name": "Tone of Voice",
+          "key": "tone_of_voice",
+          "placeholder": "",
+          "showTextArea": false,
+          "maxLimit": 80,
+          "minLimit": 0
+        },
+        {
+          "name": "Output Language",
+          "key": "output_language",
+          "placeholder": "",
+          "showTextArea": false,
+          "maxLimit": 80,
+          "minLimit": 0
+        }
+      ],
+      "status": "Coming Soon"
+    },
+    {
+      "id": 5,
+      "elementt":"<Comingsoon />",
+      "name": "Call to Action",
+      "subtitle": "Include call to actions in your content: short, powerful messages to get your audience to take action.",
+      "sampleOutputText": "Call to Action",
+      "route": "call-to-action",
+      "apiRoute": "call-to-action",
+      "img": "../assets/ai-sentence.png",
+      "textInputs": [
+        {
+          "name": "Ask INK",
+          "key": "ask-ink",
+          "placeholder": "Write sales copy about threadmills",
+          "showTextArea": false,
+          "maxLimit": 100,
+          "minLimit": 3
+        },
+        {
+          "name": "Provide some context",
+          "key": "provide_some_context",
+          "placeholder": "Enter additional information here...",
+          "showTextArea": true,
+          "maxLimit": 400,
+          "minLimit": 0
+        },
+        {
+          "name": "Tone of Voice",
+          "key": "tone_of_voice",
+          "placeholder": "",
+          "showTextArea": false,
+          "maxLimit": 80,
+          "minLimit": 0
+        },
+        {
+          "name": "Output Language",
+          "key": "output_language",
+          "placeholder": "",
+          "showTextArea": false,
+          "maxLimit": 80,
+          "minLimit": 0
+        }
+      ],
+      "status": "Coming Soon"
+    }
+  ]
