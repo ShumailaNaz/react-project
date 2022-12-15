@@ -55,7 +55,7 @@ dispatch({ type: 'LOGIN', payload: data.success })
                 <label htmlFor="">Password</label>
                 <br /> <input type="password" 
                 id="password"
-                onChange={(e)=>setEmail(e.target.value)}
+                onChange={(e)=>setPassword(e.target.value)}
                 value={password}/>
             </div>
             {!isPending&& <div className="btn">
