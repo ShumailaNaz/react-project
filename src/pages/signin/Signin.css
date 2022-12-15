@@ -1,0 +1,12 @@
+
+.left{
+    width: 30%;
+   height: 600px;
+    padding: 30px;
+}.right{
+    width: 70%;
+  height: 600px;
+}
+.sign{
+    height: 1000px;
+}

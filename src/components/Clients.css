@@ -1,0 +1,15 @@
+.client-bg{
+    width: auto;
+    height: 670px;
+    background-image: url('../assets/aside-bg.png');
+display: flex;
+justify-content: center;
+align-items: center;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+}
+.clients>img{
+    width: 600px;
+   
+}

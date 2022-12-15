@@ -1,0 +1,90 @@
+.ai-gene .left {
+  width: 35%;
+  background: #FFFFFF;
+
+border: 1px solid #EBEBEF;
+border-radius: 5px;
+}
+.ai-gene .left .top {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+ 
+}
+.ai-gene .left .top button {
+    background: #FFFFFF;
+font-size: 18px;
+padding: 14.5px 24px 13.5px;
+    border: 1px solid #EBEBEF;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+.ai-gene .left .btn {
+  display: flex;
+  justify-content: space-between;
+}
+.ai-gene .left .btn button {
+  background: #e45c96;
+  border-radius: 5px;
+  width: 132.86px;
+  height: 48px;
+  border: 0;
+  font-size: 18px;
+  color: #fff;
+}
+.ai-gene .in {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  row-gap: 20px;
+}
+ .lab {
+  font-weight: 600;
+  font-size: 22px;
+  display: flex;
+width: 250px;
+padding-bottom: 5px;
+text-align: left;
+}
+.ai-gene .in .sp {
+    font-weight: 400;
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .ai-gene .in .asterick{
+    color: red;
+    display: flex;
+  }
+  .ai-gene .in label > textarea{
+  overflow-y: hidden;
+  height: 70px;
+
+  }
+.ai-gene .in label > textarea,
+select,input {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+  background: #f5f5f7;
+  border: 1px solid #ebebef;
+  border-radius: 5px;
+  box-sizing: border-box;
+ 
+}
+.ai-gene .right {
+  width: 60%;
+  background: #FFFFFF;
+height: 680px;
+  border: 1px solid #EBEBEF;
+  border-radius: 5px;
+}
+.ai-gene {
+  display: flex;
+  padding: 40px;
+  gap: 20px;
+}

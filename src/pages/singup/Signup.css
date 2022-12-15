@@ -1,0 +1,57 @@
+.signup{
+   
+    margin:10px auto;
+      display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    background: #fff;
+   
+}
+.left{
+    width: 30%;
+   height: 600px;
+    padding: 30px;
+}
+.frm div{
+    text-align: left;
+    margin: 20px;
+}
+.frm div input{
+padding: 10px;
+border-radius: 5px;
+background: rgb(237, 226, 226);
+border: 0;
+}
+
+.frm .btn button{
+ color: #fff;
+ font-size: 17px;
+    border: 0;
+    margin-left: 20px;
+    width: 129px;
+    height: 42px;
+    background: #e45c96;
+    border-radius: 5px;
+    
+   
+}
+
+.frm .btn button .li{
+text-decoration: none;
+font-size: 22px;
+color: #fff;
+}
+.alert{
+    color: red;
+}
+.right{
+    width: 70%;
+  height: 600px;
+}
+
+.signed{
+    font-size: 18px;
+    font-weight: 500;
+   margin-left: 100px;
+    color: #000
+}

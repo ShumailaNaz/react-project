@@ -1,0 +1,56 @@
+.signin{
+    margin:10px auto;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    background: #fff;;
+}
+.left{
+    width: 30%;
+    background: #FFFFFF;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    height: 600px;
+}
+.frm div{
+    text-align: left;
+    margin: 20px;
+}
+.frm div input{
+padding: 10px;
+border-radius: 5px;
+background: rgb(237, 226, 226);
+border: 0;
+width: 100%;
+}
+
+.frm .btn button{
+ 
+    border: 0;
+    margin-left: 20px;
+    width: 129px;
+    height: 48px;
+    background: #e45c96;
+    border-radius: 5px;
+    
+   
+}
+
+.frm .btn button .li{
+text-decoration: none;
+font-size: 22px;
+color: #fff;
+}
+.right{
+    width: 70%;
+    height: 600px;
+    background: #FFFFFF;
+    border-radius: 5px 0px 0px 5px;
+}
+.signed{
+   font-size: 18px;
+   font-weight: 500;
+    margin-left: 100px;
+     color: #000
+ }
